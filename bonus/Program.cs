@@ -22,12 +22,12 @@ Console.WriteLine (lastnum());
 
 
 
-void programist(int lastnum());
+string programist(lastnum());
 {
-    if (lastnum() = x1) Console.WriteLine ({x} + "програмист");
-    else if (lastnum() = x2) Console.WriteLine ({x} + "програмиста");
-    else (lastnum() = x3) Console.WriteLine ({x} + "програмистов");
-    //Console.WriteLine(message);
+    if (lastnum() = x1) Console.WriteLine ($"{x} програмист");
+    else if (lastnum() = x2) Console.WriteLine ($"{x} програмиста");
+    else (lastnum() = x3) Console.WriteLine ($"{x} програмистов");
+   
 }
-programist(lastnum());
+Console.WriteLine(programist(lastnum());
 
