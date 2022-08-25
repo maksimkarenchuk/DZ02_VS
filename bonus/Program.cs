@@ -20,7 +20,7 @@
 }
 Console.WriteLine (lastnum());
 
-
+//не понимаю как сзязать эти 2 фунции!!!!!
 
 string programist(lastnum());
 {
