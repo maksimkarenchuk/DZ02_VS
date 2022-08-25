@@ -7,11 +7,11 @@
 
 
 
-int two()
+string two()
             {
             int x = new Random().Next(100,1000);
             Console.WriteLine($"сгенерировалось случайное число {x}");
             int x1= (x / 10) % 10;
-            return (x1);
+            return ($"Второе число {x1}");
             }
 Console.WriteLine(two());
